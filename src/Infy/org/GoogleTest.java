@@ -45,6 +45,8 @@ public class GoogleTest extends BaseClass {
 		Thread.sleep(2000);
 
 		baseClass.clickBtn(element1);
+		
+		System.out.println("data modified");
 
 		Thread.sleep(5000);
 
