@@ -61,9 +61,11 @@ public class AmazonTest extends BaseClass {
 		Thread.sleep(5000);
 
 		WebElement category1 = driver.findElement(By.xpath("(//span[text()='Echo & Alexa'])[1]"));
-		
+
 		System.out.println(category1.getText());
-		
+
+		System.out.println("Module-1 Tested");
+
 		// System.out.println(element.getText());
 
 		driver.close();
